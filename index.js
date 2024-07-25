@@ -1,53 +1,138 @@
+// const inquirer = require("inquirer");
+// const fs = require('fs');
+// const {getQuestions} = require("./questions");
+// const questions = getQuestions();
+
+
+// async function start(){
+  
+//   const responses = await inquirer.prompt(questions)
+
+//   const logMessage = `The user ${responses.username} chose a favorite programminbg language of: ${responses.language}`
+
+//   fs.writeFile("README.md", logMessage, (err) => {
+//     if( err ){
+//       console.error("There was an error writing the file.")
+//     } else {
+//       console.log("File written successfully!")
+//     }
+//   })
+// }
+
+// start()
+
+
+
+
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require('fs');
+// const {generateMarkdown} = require("./assets/generateMarkdown");
+const {getUserQuestions} = require("./assets/questions");
+// const { generateMarkdown } = require("./assets/generateMarkdown");
+const getQuestions = getUserQuestions();
+// const markdown = generateMarkdown();
 
-// TODO: Create an array of questions for user input
-const questions = [function getUserQuestions(){
-    return [
-      {
-        type: "input",
-        message: "What is the title of your project?",
-        name: "title"
-      },
-      {
-        type: "input",
-        message: "What is the description of the project?",
-        name: "description"
-      },
-      {
-        type: "input",
-        message: "What is your github username?",
-        name: "github"
-      },
-      {
-        type: "input",
-        message: "What is your email?",
-        name: "email"
-      },
-      {
-        type: "input",
-        message: "Tell people how they can contribute to the project.",
-        name: "contribute"
-      },
-      {
-        type: "input",
-        message: "Tell people how to test the project.",
-        name: "test"
-      },
-      {
-        type: "input",
-        message: "What is your GitHub URL profile?",
-        name: "github"
-      },
-    ]
-  }];
+async function start(){
+  
+  const data = await inquirer.prompt(getQuestions);
+  const result = 
+      `
+# ${data.title}
+    
+## Description
+    
+${data.description}
+    
+## Table of Contents
+    
+## Installation
+    
+${data.installation}
+    
+## Usage
+    
+${data.usage}
+    
+## License
+    
+${data.license}
+    
+## Contributing
+    
+${data.contribute}
+    
+## Tests
+    
+${data.test}
+    
+## Questions
+    
+Check out my github repos at https://github.com/${data.github}
+    
+If you have questions or wish to contact me, please email me at ${data.email}
+    `
+    
+    fs.writeFile("README.md", result, function(err){
+      if(err) console.log(err)
+      } )
 
+}
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
+// function markdown(){
+//   const result = 
+//       `
+    
+//     # ${data.title}
+    
+//     ## Description
+    
+//     ${data.description}
+    
+//     ## Table of Contents
+    
+//     ## Installation
+    
+//     ${data.installation}
+    
+//     ## Usage
+    
+//     ${data.usage}
+    
+//     ## License
+    
+//     ${data.license}
+    
+//     ## Contributing
+    
+//     ${data.contribute}
+    
+//     ## Tests
+    
+//     ${data.test}
+    
+//     # Questions
+    
+//     Check out my github repos at https://github.com/${data.github}
+    
+//     If you have questions or wish to contact me, please email me at https://github.com/${data.email}
+    
+//     `
+//     }
 
-// Function call to initialize app
-init();
+// })
+
+// start()
+
+start()
+
+
+
+
+// // TODO: Create a function to initialize app
+// function init() {}
+
+// // Function call to initialize app
+// init();
