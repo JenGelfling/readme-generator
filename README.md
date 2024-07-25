@@ -1,19 +1,19 @@
 
-# The Dope project
+# My Title!
     
 ## Description
     
-This is a description of the project
+I'm describing the project
     
 ## Table of Contents
     
 ## Installation
     
-here is how you install the project
+make sure to install inquirer@8.2.4
     
 ## Usage
     
-this is how you use the app
+you run "node index.js" in terminal.
     
 ## License
     
@@ -21,15 +21,14 @@ Apache -- [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
     
 ## Contributing
     
-This is how you contribute.
+clone the repo, create a branch, and then push back to the repo and I will check and merge it.
     
 ## Tests
     
-This is how you test.
+run it in terminal and see if it propts you for responses and then see if it creates a README.md file once finished.
     
-# Questions
+## Questions
     
 Check out my github repos at https://github.com/JenGelfling
     
 If you have questions or wish to contact me, please email me at moonshadowbodywork@gmail.com
-    
