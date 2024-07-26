@@ -1,42 +1,10 @@
+# README Generator
+In this project, I adjusted the code to allow a user to generate a README.md file via prompts in 
+terminal. This includes adding a license from an options list with a badge for the license that is linked to the license information.
 
-# ble
-    
-## Description
-    
-adfkj 
-    
-## Table of Contents
- - [Description](#description) 
- - [Installation](#installation) 
- - [Usage](#usage)
- - [License](#license)
- - [Contributing](#contributing)
- - [Tests](#tests)
- - [Questions](#questions)
+## Link to Video Walk Through
 
-## Installation
-    
-install
-    
-## Usage
-    
-use
-    
-## License
+[The README Generator allows users to answer prompts that will automatically create a READM.md file.](https://drive.google.com/file/d/1GZQ8NL1CGpofVXwTCzO6K0qcyw9QC83Z/view)
 
-This application is covered under the following license. You can learn more about the license by clicking the link on the badge.
-Mozilla Public License 2.0 - [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-    
-## Contributing
-    
-contribute
-    
-## Tests
-    
-test
-    
-## Questions
-    
-Check out my github repos at https://github.com/jengelfling
-    
-If you have questions or wish to contact me, please email me at benmerch@gmail.com
+## Link to Github Repo
+[Click here to go to the github repo for this project.](https://github.com/JenGelfling/readme-generator)
