@@ -1,11 +1,10 @@
 
-# title
+# ble
     
 ## Description
     
-descrio
+adfkj 
     
-
 ## Table of Contents
  - [Description](#description) 
  - [Installation](#installation) 
@@ -17,16 +16,16 @@ descrio
 
 ## Installation
     
-isntall
+install
     
 ## Usage
     
-usage
+use
     
 ## License
 
 This application is covered under the following license. You can learn more about the license by clicking the link on the badge.
-The MIT License - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Mozilla Public License 2.0 - [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
     
 ## Contributing
     
@@ -38,6 +37,6 @@ test
     
 ## Questions
     
-Check out my github repos at https://github.com/JenGelfling
+Check out my github repos at https://github.com/jengelfling
     
 If you have questions or wish to contact me, please email me at benmerch@gmail.com
