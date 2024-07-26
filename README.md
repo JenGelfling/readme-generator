@@ -1,34 +1,34 @@
 
-# My Title!
+# MY fantastic project
     
 ## Description
     
-I'm describing the project
+this is the description of the project
     
 ## Table of Contents
-    
+    // I still need to create the table of contents with links to the other sections
 ## Installation
     
-make sure to install inquirer@8.2.4
+make sure to install inquirer@8.2.4 before running the program
     
 ## Usage
     
-you run "node index.js" in terminal.
+you can clone the repo and then run it via using the "node index.js" command
     
 ## License
     
-Apache -- [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+The MIT License - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 ## Contributing
     
-clone the repo, create a branch, and then push back to the repo and I will check and merge it.
+you can clone and branch the code
     
 ## Tests
     
-run it in terminal and see if it propts you for responses and then see if it creates a README.md file once finished.
+test the project
     
 ## Questions
     
 Check out my github repos at https://github.com/JenGelfling
     
-If you have questions or wish to contact me, please email me at moonshadowbodywork@gmail.com
+If you have questions or wish to contact me, please email me at benmerch@gmail.com

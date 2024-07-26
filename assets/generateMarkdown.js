@@ -34,6 +34,7 @@ ${data.usage}
 
 ## License
 
+This application is covered under the following license. You can learn more about the license by clicking the link on the badge.
 ${data.license}
 
 ## Contributing
@@ -46,9 +47,9 @@ ${data.test}
 
 # Questions
 
-Check out my github repos at https://github.com/${data.github}
+Check out my github repos at https://github.com/${data.github}.
 
-If you have questions or wish to contact me, please email me at https://github.com/${data.email}
+If you have questions or wish to contact me, please email me at ${data.email}.
 
 `
 }
