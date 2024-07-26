@@ -3,9 +3,7 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const {getUserQuestions} = require("./assets/questions");
-// const { generateMarkdown } = require("./assets/generateMarkdown");
 const getQuestions = getUserQuestions();
-// const markdown = generateMarkdown();
 
 // // TODO: Create a function to initialize app
 async function start(){
@@ -20,7 +18,14 @@ async function start(){
 ${data.description}
     
 ## Table of Contents
-    // I still need to create the table of contents with links to the other sections
+ - [Description](#description) 
+ - [Installation](#installation) 
+ - [Usage](#usage)
+ - [License](#license)
+ - [Contributing](#contributing)
+ - [Tests](#tests)
+ - [Questions](#questions)
+
 ## Installation
     
 ${data.installation}
@@ -30,7 +35,8 @@ ${data.installation}
 ${data.usage}
     
 ## License
-    
+
+This application is covered under the following license. You can learn more about the license by clicking the link on the badge.
 ${data.license}
     
 ## Contributing
@@ -52,7 +58,6 @@ If you have questions or wish to contact me, please email me at ${data.email}
   fs.writeFile("README.md", result, function(err){
     if(err) console.log(err)
   })
-
 }
 
 // Function call to initialize app
